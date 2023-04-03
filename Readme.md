@@ -30,7 +30,8 @@ GET /api/v1/getMedicationByDroneId/{droneId}: Returns a list of medication by sp
 GET /api/v1/getAvilableDrones: Returns a list of all avilable drones
 GET /api/v1/checkBatteryLevelByDroneId/{droneId}: Returns the details of a specific drone
 
-You can use the application/json media type to send and receive JSON payloads.Please find the postman collection Postman-Collection folder.
+You can use the application/json media type to send and receive JSON payloads.
+Please find the postman collection Postman-Collection folder and DB dump in DB-Dump folder.
 
 Built With
 -Spring Boot
