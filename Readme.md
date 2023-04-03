@@ -15,11 +15,16 @@ To install the project dependencies, run the following command in the project di
 DB configuration can change application.property file.
 You can change the spring.jpa.hibernate.ddl-auto value.
 spring.jpa.hibernate.ddl-auto=create
-
 Running the Application
-To run the application, use the following command:
- mvn spring-boot:run
+To run the application, you can either use the Maven command:
+  mvn spring-boot:run
+Or you can build the executable jar using the Maven command:
+  mvn clean package
+This will create a jar file with a name like drone-transportation-services-0.0.1-SNAPSHOT.jar in the target folder. Then you can run the application using the command
+  java -jar target/drone-transportation-services-0.0.1-SNAPSHOT.jar
+  
 Application running in 8080 port you can edit base path in application.property file.
+
 Testing the Application
 To test the application, you can use any REST client, such as Postman. You can also use the command line tool curl.
 
