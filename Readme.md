@@ -30,9 +30,13 @@ To test the application, you can use any REST client, such as Postman. You can a
 
 The following endpoints are available:
 POST /api/v1/droneRegistration: Creates a new drone
+
 POST /api/v1/loadMedicationByDroneID/{droneId}: Adds medications to a specific drone
+
 GET /api/v1/getMedicationByDroneId/{droneId}: Returns a list of medication by specific drone.
+
 GET /api/v1/getAvilableDrones: Returns a list of all avilable drones
+
 GET /api/v1/checkBatteryLevelByDroneId/{droneId}: Returns the details of a specific drone
 
 You can use the application/json media type to send and receive JSON payloads.
