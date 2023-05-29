@@ -8,7 +8,7 @@ Prerequisites
 To run this project, you need to have the following installed on your machine:
 -Java 8 or later
 -Maven
--MySQL
+-MySQL-5.8
 
 To install the project dependencies, run the following command in the project directory:
  mvn install
